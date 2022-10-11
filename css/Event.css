@@ -1,0 +1,93 @@
+section .event{
+    position: relative;
+    width: 67%;
+    height: 100%;
+    background: rebeccapurple;
+    float: right;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+section .event ul{
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%);
+    margin: 0;
+    padding: 40px;
+    box-sizing: border-box;
+}
+section .event ul li{
+    list-style: none;
+    background:#fff;
+    box-sizing: border-box;
+    height: 200px;
+    margin: 15px 0;
+}
+section .event ul li .time{
+    position: relative;
+    padding: 20px;
+    background:#262626;
+    box-sizing: border-box;
+    width: 30%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    transition:.5s;
+}
+section .event ul li:hover .time{
+    background:#e91e63;
+
+}
+section .event ul li .time h1{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 60px;
+    line-height: 30px;
+    
+}
+section .event ul li .time h1 span{
+    font-size: 30px;
+}
+section .event ul li .detail{
+    padding: 20px;
+    background: #fff;
+    box-sizing: border-box;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+section .event ul li .detail h2{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+section .event ul li .detail p{
+    position: relative;
+    margin: 16px 0 0;
+    padding: 0;
+    font-size: 16px;
+}
+section .event ul li .detail a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border: 2px solid #262626;
+    margin-top: 15px;
+    font-size: 18px;
+    transition: .5s;
+    float: right;
+}
+section .event ul li .detail a:hover{
+    background: #e91e63;
+    color: #fff;
+    border-color: #e91e63;
+}
+
+
